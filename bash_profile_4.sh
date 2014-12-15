@@ -35,6 +35,11 @@ eval "$(rbenv init -)"
 # other aliases
 
 alias redis='redis-server /usr/local/etc/redis.conf'
+
+function pr() {
+  git checkout origin/pr/$1
+}
+
 #configure the PS1
 source ~/.bash_profiles/git-prompt.sh
 export PS1="\e[0;36m\u: \W \e[m\e[0;33m\$( parse_git_branch)\e[m$ "
