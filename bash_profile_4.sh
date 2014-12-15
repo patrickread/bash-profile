@@ -1,4 +1,3 @@
-# show's the current branch and whether it's clean or dirty
 
 alias gpush="git push origin master"
 alias cdd="cd ~/Detroit\ Labs"
